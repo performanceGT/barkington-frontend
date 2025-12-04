@@ -18,9 +18,9 @@ import { TabNavigator } from './tab-navigator/TabNavigator';
 // }
 
 export const metadata:Metadata = {
-  title: 'Tab Navigator',
+  title: 'Barkington',
   description:
-    'Explore various tabs and navigate through different sections of the application seamlessly using the Tab Navigator.',
+    'Best pet food store.',
 }
 
 export default function Start () {
