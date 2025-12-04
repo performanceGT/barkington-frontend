@@ -19,8 +19,11 @@ export const viewport: Viewport = { themeColor: '#F6F9F9' };
 export const metadata: Metadata = {
   manifest: '/manifest.json',
   title: {
-    template: 'Thomson\'s Casa Store - %s',
-    default: 'Thomson\'s Casa Store'
+    // Use a lightweight template so pages control the title.
+    // Setting the default to an empty string prevents the site name
+    // appearing in the browser window when a page doesn't set a title.
+    template: '%s',
+    default: 'barkington',
   },
   description: 'Discover delicious food and explore our menu at Thomson\'s Casa Store. Order your favorite dishes with ease.'
 };

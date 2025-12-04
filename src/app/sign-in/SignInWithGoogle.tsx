@@ -72,13 +72,14 @@ export const SignInWithGoogle: React.FC = () => {
         boxShadow: '0 3px 8px rgba(0, 0, 0, 0.08)'
       }}>
         <Image
-          src="/mock/images/thomsons_cafe_entry_image.png"
+          src="/mock/images/BARKINGTON-full.png"
           alt="Cafe Ambiance"
           fill
           style={{ objectFit: 'cover' }}
           priority 
         />
       </div>
+      // gooogle login image
     );
   };
 
@@ -161,7 +162,7 @@ export const SignInWithGoogle: React.FC = () => {
         color: '#666',
         lineHeight: '1.5'
       }}>
-        Welcome to our cafe! Sign in to quickly order your favorite food. Track your orders, and enjoy exclusive offers.
+        Welcome to Barkington! Sign in to browse premium pet food, track your orders, and get exclusive deals for your furry friend.
       </p>
     );
   };
