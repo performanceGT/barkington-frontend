@@ -8,13 +8,13 @@ import {
 } from "firebase/messaging";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD8jh985uD39VQ4Rn-2p4sh0rdTD0jxmOY",
-    authDomain: "thomsons-casa-store.firebaseapp.com",
-    projectId: "thomsons-casa-store",
-    storageBucket: "thomsons-casa-store.firebasestorage.app",
-    messagingSenderId: "996201875645",
-    appId: "1:996201875645:web:14fa9758b4adaeac004fd4",
-    measurementId: "G-0MRN32WRE4"
+  apiKey: "AIzaSyDlGcqnB_0vysmJdZhQjKDGeE28t9xbuuo",
+  authDomain: "barkington-dff64.firebaseapp.com",
+  projectId: "barkington-dff64",
+  storageBucket: "barkington-dff64.firebasestorage.app",
+  messagingSenderId: "38565092464",
+  appId: "1:38565092464:web:afbcf1d47f34bd7038e8b5",
+  measurementId: "G-RYN26FC7K5"
 };
 
 const VAPID_KEY = "BJOZnvBy_BrELRBC3X_o0VaGsIdnWX48WMOiER0XXO1IqoQEpOVk-tPWeR4khkbUmM0Mr-J-r6sRsTpATtCzXHk";

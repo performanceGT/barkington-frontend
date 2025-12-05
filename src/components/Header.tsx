@@ -74,7 +74,7 @@ export const Header: React.FC<Props> = ({
             {/* App Icon - Square/Box with subtle animated arrow */}
             <div style={{ position: 'relative' }}>
               <Image
-                src='/assets/icons/app_icon.png'
+                src='/assets/icons/BARKINGTON.png'
                 priority={true}
                 alt='App Icon'
                 width={35}
