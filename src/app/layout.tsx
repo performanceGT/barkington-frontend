@@ -45,6 +45,7 @@ export default function RootLayout({
         id='app'
         className={`${dmSans.variable}`}
         style={{ backgroundColor: '#F6F9F9' }}
+        suppressHydrationWarning={true}
       >
         <SessionProvider>
           <AuthProvider>
