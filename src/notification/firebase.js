@@ -56,6 +56,20 @@ const setupTokenRefresh = () => {
     // Check for token changes periodically (every 24 hours)
     const checkTokenRefresh = async () => {
         try {
+            // If Notifications API is unavailable or the user hasn't granted permission,
+            // skip token refresh checks. If permission is explicitly denied, clean stored tokens.
+            if (typeof window === 'undefined' || !('Notification' in window)) return;
+
+            const permission = Notification.permission;
+            if (permission !== 'granted') {
+                if (permission === 'denied') {
+                    // Clear any stored token when permission is blocked so app state stays consistent
+                    localStorage.removeItem('fcm_token');
+                    localStorage.setItem('notifications_enabled', 'false');
+                }
+                return;
+            }
+
             const currentToken = await getToken(messaging, { vapidKey: VAPID_KEY });
             const storedToken = localStorage.getItem("fcm_token");
 
@@ -67,6 +81,7 @@ const setupTokenRefresh = () => {
                 }));
             }
         } catch (error) {
+            // Log only unexpected errors; permission-related errors are handled above
             console.error('Token refresh check failed:', error);
         }
     };
