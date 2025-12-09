@@ -1,12 +1,12 @@
-import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
+import { dish as dishItem } from '../dish';
 import { Routes } from '../routes';
 import { stores } from '../stores';
-import { dish as dishItem } from '../dish';
 
-import itemPlaceholder from './../../public/mock/images/item-placeholder.png'
+import itemPlaceholder from './../../public/mock/images/item-placeholder.png';
 
 
 // import type {DishType} from '../types';

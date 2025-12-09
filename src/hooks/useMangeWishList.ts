@@ -1,7 +1,7 @@
 // import React from 'react';
-import { urls } from '@/lib/config/urls';
-import {authClient} from '@/lib/axios/apiClient'
+import { authClient } from '@/lib/axios/apiClient';
 import { createApiService } from '@/lib/axios/apiService';
+import { urls } from '@/lib/config/urls';
 import { ApiResponse } from '@/types/apiRelatedTypes';
 import { WishlistResponse } from '@/types/WishListTypes';
 

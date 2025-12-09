@@ -1,15 +1,15 @@
-import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
-import {dish} from '../dish';
+import { dish } from '../dish';
 
-import {svg} from '../svg';
-import {stores} from '../stores';
-import {Routes} from '../routes';
+import { Routes } from '../routes';
+import { stores } from '../stores';
+import { svg } from '../svg';
 
-import { ProductType } from '@/types/DishType';
 import { hooks } from '@/hooks';
+import { ProductType } from '@/types/DishType';
 
 type Props = {
   item: ProductType;
