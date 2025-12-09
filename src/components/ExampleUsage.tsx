@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import { useAuth } from './AuthProvider';
 import { requireAuth } from '../utils/authUtils';
+import { useAuth } from './AuthProvider';
 
 // Example component showing how to use the new AuthModal system
 export const ExampleUsage: React.FC = () => {

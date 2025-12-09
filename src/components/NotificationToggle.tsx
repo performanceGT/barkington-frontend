@@ -1,7 +1,7 @@
 'use client';
 
-import React from 'react';
 import { useNotifications } from '@/hooks/useNotifications';
+import React from 'react';
 
 interface NotificationToggleProps {
   onClick?: (enabled: boolean) => void;

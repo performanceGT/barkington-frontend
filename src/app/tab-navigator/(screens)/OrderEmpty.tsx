@@ -1,9 +1,9 @@
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 
+import { components } from '../../../components';
 import { URLS } from '../../../config';
 import { Routes, TabScreens } from '../../../routes';
-import { components } from '../../../components';
 
 export const OrderEmpty: React.FC = React.memo(() => {
 

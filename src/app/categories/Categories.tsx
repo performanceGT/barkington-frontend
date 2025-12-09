@@ -1,12 +1,12 @@
 'use client';
 
-import React from 'react';
 import Link from 'next/link';
+import React from 'react';
 
-import { hooks } from '../../hooks';
-import { Routes } from '../../routes';
 import { components } from '../../components';
+import { hooks } from '../../hooks';
 import { items } from '../../items';
+import { Routes } from '../../routes';
 
 export const Categories: React.FC = () => {
   const { category, categoryFetchingStatus } = hooks.useGetMenu();

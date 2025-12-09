@@ -1,5 +1,5 @@
-import React from 'react';
 import Link from 'next/link';
+import React from 'react';
 
 type Props = {
   title: string;
@@ -8,7 +8,7 @@ type Props = {
   href?: string;
 };
 
-import {svg} from '../svg';
+import { svg } from '../svg';
 
 export const BlockHeading: React.FC<Props> = ({
   title,

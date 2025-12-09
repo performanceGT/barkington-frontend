@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-import {items} from '../../items';
-import {hooks} from '../../hooks';
-import {components} from '../../components';
+import { components } from '../../components';
+import { hooks } from '../../hooks';
+import { items } from '../../items';
 
 export const Promocodes: React.FC = () => {
   const {promocodes, promocodesLoading} = hooks.useGetPromocodes();

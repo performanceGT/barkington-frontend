@@ -1,10 +1,10 @@
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 
-import {svg} from '../../svg';
-import {URLS} from '../../config';
-import {Routes} from '../../routes';
-import {components} from '../../components';
+import { components } from '../../components';
+import { URLS } from '../../config';
+import { Routes } from '../../routes';
+import { svg } from '../../svg';
 
 export const CreateProfile: React.FC = () => {
   const renderHeader = () => {

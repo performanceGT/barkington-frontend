@@ -1,10 +1,10 @@
 'use client';
 
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 
-import {URLS} from '../../config';
-import {components} from '../../components';
+import { components } from '../../components';
+import { URLS } from '../../config';
 
 export const PromocodesEmpty: React.FC = () => {
   const renderHeader = () => {

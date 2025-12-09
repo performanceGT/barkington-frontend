@@ -1,8 +1,8 @@
 'use client';
 
-import React from 'react';
-import { Coupon, AppliedCoupon } from '@/types/CartDataType';
 import { svg } from '@/svg';
+import { AppliedCoupon, Coupon } from '@/types/CartDataType';
+import React from 'react';
 
 interface CouponPopupProps {
   isOpen: boolean;

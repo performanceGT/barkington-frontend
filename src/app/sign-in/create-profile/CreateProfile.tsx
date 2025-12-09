@@ -1,16 +1,16 @@
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 
-import { svg } from '../../../svg';
-import { URLS } from '../../../config';
-import { Routes } from '../../../routes';
-import { components } from '../../../components';
 import { hooks } from '@/hooks';
+import { UserFormDataType } from '@/hooks/useAuthentication';
+import { stores } from '@/stores';
+import { enableNotificationsAndSendToken } from '@/utility/notificationUtils';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import { UserFormDataType } from '@/hooks/useAuthentication';
-import { enableNotificationsAndSendToken } from '@/utility/notificationUtils';
-import { stores } from '@/stores';
+import { components } from '../../../components';
+import { URLS } from '../../../config';
+import { Routes } from '../../../routes';
+import { svg } from '../../../svg';
 
 export const CreateProfile: React.FC = () => {
 

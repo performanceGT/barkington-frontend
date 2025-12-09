@@ -1,11 +1,11 @@
 'use client';
 
-import React from 'react';
 import Link from 'next/link';
+import React from 'react';
 
-import {svg} from '../../svg';
-import {Routes} from '../../routes';
-import {components} from '../../components';
+import { components } from '../../components';
+import { Routes } from '../../routes';
+import { svg } from '../../svg';
 
 export const SignUp: React.FC = () => {
   const renderHeader = () => {

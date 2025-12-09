@@ -1,13 +1,13 @@
 'use client';
 
-import React from 'react';
 import { useRouter } from 'next/navigation';
+import React from 'react';
 
-import { svg } from '../svg';
+import { Routes, TabScreens } from '../routes';
 import { stores } from '../stores';
-import { TabScreens, Routes } from '../routes';
-import { useAuth } from './AuthProvider';
+import { svg } from '../svg';
 import { requireAuth } from '../utils/authUtils';
+import { useAuth } from './AuthProvider';
 
 const tabs = [
   {

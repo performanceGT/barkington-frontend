@@ -1,8 +1,7 @@
 'use client';
 
-import React from 'react';
 import { useAuth } from '../../components/AuthProvider';
-import { requireAuth, isAuthenticated } from '../../utils/authUtils';
+import { isAuthenticated, requireAuth } from '../../utils/authUtils';
 
 export default function TestAuthPage() {
   const { openAuthModal } = useAuth();

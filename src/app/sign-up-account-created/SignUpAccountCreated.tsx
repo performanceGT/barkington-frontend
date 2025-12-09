@@ -1,11 +1,11 @@
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 
-import {URLS} from '../../config';
-import {Routes} from '../../routes';
-import { Header } from '@/components/Header';
 import { Button } from '@/components/Button';
+import { Header } from '@/components/Header';
 import { Screen } from '@/components/Screen';
+import { URLS } from '../../config';
+import { Routes } from '../../routes';
 
 export const SignUpAccountCreated: React.FC = () => {
   const renderHeader = () => {
