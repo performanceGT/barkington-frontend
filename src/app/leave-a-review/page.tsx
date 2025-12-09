@@ -1,5 +1,5 @@
 import type {Metadata} from 'next';
-import React, {Suspense} from 'react'; // Import Suspense
+import { Suspense } from 'react'; // only import what we use
 
 import {LeaveAReview} from './LeaveAReview';
 // Removed import for {components} as it's not safe to use in server-rendered fallback directly
