@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-import {Routes} from '../../routes';
-import {components} from '../../components';
+import { components } from '../../components';
+import { Routes } from '../../routes';
 
 export const ForgotPassword: React.FC = () => {
   const renderHeader = () => {

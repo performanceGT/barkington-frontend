@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import {components} from '../../components';
+import { components } from '../../components';
 
 const privacyPolicy = [
   {

@@ -1,8 +1,8 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
-import React, { ComponentType, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { ComponentType, useEffect } from "react";
 
 const withAuth = <P extends object>(WrappedComponent: ComponentType<P>) => {
   const Wrapper = (props: P) => {

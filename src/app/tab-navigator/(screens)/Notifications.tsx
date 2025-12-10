@@ -1,10 +1,10 @@
 'use client';
 
+import { NotificationType } from '@/types/NotificationType'; // Import NotificationType
 import React from 'react'; // Removed useState as it's no longer needed for readNotifications
+import { components } from '../../../components';
 import { stores } from '../../../stores'; // Updated import path
 import { svg } from '../../../svg';
-import { components } from '../../../components';
-import { NotificationType } from '@/types/NotificationType'; // Import NotificationType
 
 export const Notifications: React.FC = () => {
   const { notifications, error } = stores.useNotificationStore(); // Use the new store

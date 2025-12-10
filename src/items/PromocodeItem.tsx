@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {svg} from '../svg';
-import type {PromocodeType} from '../types';
+import { svg } from '../svg';
+import type { PromocodeType } from '../types';
 
 type Props = {
   isLast: boolean;

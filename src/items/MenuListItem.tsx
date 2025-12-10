@@ -1,16 +1,16 @@
-import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
-import { svg } from '../svg';
-import { Routes } from '../routes';
-import { stores } from '../stores';
 import { ProductType } from '@/types/DishType';
 import Cookies from 'js-cookie';
+import { Routes } from '../routes';
+import { stores } from '../stores';
+import { svg } from '../svg';
 
 // import { hooks } from '@/hooks';
-import itemPlaceholder from './../../public/mock/images/item-placeholder.png'
 import { useRouter } from 'next/navigation';
+import itemPlaceholder from './../../public/mock/images/item-placeholder.png';
 // import { useRouter } from 'next/router';
 
 

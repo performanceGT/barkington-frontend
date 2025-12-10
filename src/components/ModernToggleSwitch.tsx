@@ -1,6 +1,6 @@
-import React from 'react';
 import Segmented from 'rc-segmented';
 import 'rc-segmented/assets/index.css';
+import React from 'react';
 
 interface SegmentedOption {
   label: React.ReactNode;

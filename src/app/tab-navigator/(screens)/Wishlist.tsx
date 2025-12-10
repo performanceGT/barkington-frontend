@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-import {items} from '../../../items';
-import {stores} from '../../../stores';
-import {components} from '../../../components';
+import { components } from '../../../components';
+import { items } from '../../../items';
+import { stores } from '../../../stores';
 // import { ProductType } from '@/types/DishType';
 // import { hooks } from '@/hooks';
 
